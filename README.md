@@ -68,6 +68,7 @@ sudo service network-manager restart
 
 
 arrange columns wise --> :%!sed 's/"&"/\&/' | column -t -s '&'
+
 DELETE ALL ~ files   find . -type f \( -iname "*~" \) -delete
 
 
