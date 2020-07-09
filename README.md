@@ -73,10 +73,16 @@ DELETE ALL ~ files   find . -type f \( -iname "*~" \) -delete
 
 GITHUB
  git format-patch c99f
+ 
  git reset --hard c99f
+ 
  gti add fnkwhfw
+ 
  git commit --amend
+ 
  git am --signoff <  000X-kfwekfwek.patch
+ 
  git push --force
+ 
 
 
