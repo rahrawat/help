@@ -72,19 +72,17 @@ arrange columns wise --> :%!sed 's/"&"/\&/' | column -t -s '&'
 DELETE ALL ~ files   find . -type f \( -iname "*~" \) -delete
 ### GITHUB
 #### Multi commit PR:
-	```
+```
          git format-patch c99f
          git reset --hard c99f
          git add fnkwhfw
          git commit --amend
          git am --signoff <000X-kfwekfwek.patch>
          git push --force
-     	```
 #### Reabse:
-	```
+```
         git checkout master
         git pull origin master
         git checkout <your-feature-branch>
         git rebase master
         git push --force
- 	```
