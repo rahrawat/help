@@ -86,3 +86,7 @@ DELETE ALL ~ files   find . -type f \( -iname "*~" \) -delete
         git checkout <your-feature-branch>
         git rebase master
         git push --force
+
+passwordless login:
+  - ssh-copy-id user@host
+
