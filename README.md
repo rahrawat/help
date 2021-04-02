@@ -79,6 +79,7 @@ DELETE ALL ~ files   find . -type f \( -iname "*~" \) -delete
          git commit --amend
          git am --signoff <000X-kfwekfwek.patch>
          git push --force
+```
 #### Reabse:
 ```
         git checkout master
@@ -86,7 +87,7 @@ DELETE ALL ~ files   find . -type f \( -iname "*~" \) -delete
         git checkout <your-feature-branch>
         git rebase master
         git push --force
-
-passwordless login:
+```
+#### passwordless login:
   - ssh-copy-id user@host
 
