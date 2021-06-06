@@ -65,6 +65,10 @@ C:\Windows\SysWOW64\cmd.exe /c ""C:\Program Files (x86)\Git\bin\sh.exe" --login 
 
 sudo service network-manager restart
 
+**MEmory clean**
+```
+sudo sync  ; sudo sh -c "/bin/echo 3 > /proc/sys/vm/drop_caches"
+```
 
 
 arrange columns wise --> :%!sed 's/"&"/\&/' | column -t -s '&'
